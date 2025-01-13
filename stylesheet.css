@@ -1,0 +1,37 @@
+body{
+    color: white;
+    background-color: rgb(22, 39, 46);
+    font-family: sans-serif;
+    justify-items: center;
+    text-align: center;
+
+    /* This removes the "|" thingy:  */
+    user-select: none; 
+    cursor: default;
+}
+#title{
+    margin-bottom: 50px;
+    font-family: 'Mountains of Christmas';
+    font-size: 25px;
+    color: rgb(253, 200, 10);
+    text-shadow: 7px 2px black;
+}
+#hoved{
+    justify-content: center;  
+}
+img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 100px red;
+    transition: .5s;
+    transform: scale(1.345);
+}
+#door25:hover{
+    box-shadow: 0 0 100px rgb(253, 200, 10);
+}
+img{
+    width: 136px;
+    height: 128px;
+    margin: 10px;
+    box-shadow: 7px 2px 5px black;
+    border-radius: 10px;
+}
